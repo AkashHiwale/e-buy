@@ -1,0 +1,314 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: Black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+hr{
+  margin: 0 60px;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: #8f8f8f;
+  margin-top: 20px;
+}
+
+.container-fluid{
+  padding: 3% 7% 0;
+}
+
+/* navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.search-box{
+  padding: 0 20px;
+}
+
+/* featured */
+
+.carousel-item{
+
+}
+
+
+/* Electronics */
+
+#electronics{
+  margin: 60px;
+}
+
+.electronics-h1{
+  margin-bottom: 30px;
+}
+
+.electronic{
+  text-align: center;
+}
+
+.electronics-smart-phone{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+.smart-phone{
+  padding-top: 30px;
+}
+
+.electronics-asus-laptop{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.asus-laptop{
+  padding-top: 60px;
+}
+
+.electronics-realme-buds{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.realme-buds{
+  padding-top: 30px;
+}
+
+.electronics-refrigerator{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.refrigerator{
+  padding-top: 30px;
+}
+
+.electronics-headset{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.headset{
+  padding-top: 30px;
+}
+
+.electronics-hp-laptop{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.hp-laptop{
+  padding-top: 60px;
+}
+
+
+/* Fashion */
+
+#fashion{
+  margin: 60px;
+}
+
+.fashion-h1{
+  margin-bottom: 30px;
+}
+
+.fashions{
+  text-align: center;
+}
+
+.fashion-mens-shirt{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+.mens-shirt{
+  padding-top: 0;
+}
+
+.fashion-mens-socks{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.mens-socks{
+  padding-top: 30px;
+}
+
+.fashion-shoe{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.shoe{
+  padding-top: 60px;
+}
+
+.fashion-ladies-dress{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.ladies-dress{
+  padding-top: 30px;
+}
+
+.fashion-sky-bag{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.sky-bag{
+  padding-top: 30px;
+}
+
+.fashion-glasses{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.glasses{
+  padding-top: 80px;
+}
+
+
+/* Health Care Essentials */
+
+#health{
+  margin: 60px;
+}
+
+.health-h1{
+  margin-bottom: 30px;
+}
+
+.health-care-essentials{
+  text-align: center;
+}
+
+.health-surgical-mask{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+.surgical-mask{
+  padding-top: 30px;
+}
+
+.health-thermometer{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.thermometer{
+  padding-top: 60px;
+}
+
+.health-Hand-gloves{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.Hand-gloves{
+  padding-top: 30px;
+}
+
+.health-surgical-dress{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.surgical-dress{
+  padding-top: 30px;
+}
+
+.health-black-mask{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.black-mask{
+  padding-top: 30px;
+  padding-bottom: 23px;
+}
+
+.health-medical-kit{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.medical-kit{
+  padding-top: 60px;
+}
+
+
+/* Call to Action */
+
+#cta{
+  background-color: #7EC0EE;
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.cta-h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  color: #fff;
+
+}
+
+.downside-button{
+  text-align: center;
+}
+
+/* Footer */
+
+#footer{
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.footer-icon{
+  padding: 1.5%;
+}
+
+.footer-p{
+  font-family: 'Montserrat', sans-serif;
+  color: #8f8f8f;
+}
+
+
+/* For Small Screen */
+
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+}

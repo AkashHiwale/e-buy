@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>e-buy</title>
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- styles -->
+   <link rel="stylesheet" href="css/styles.css">
+  <!-- Font awesome -->
+   <script src="https://kit.fontawesome.com/a2f5351da5.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Strips -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Navigation bar -->
+
+  <section id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#title">e-buy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Search by Category
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#fashion">Fashion</a>
+                <a class="dropdown-item" href="#electronics">Electronics</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#health">Other Category</a>
+              </div>
+            </li>
+          </ul>
+          <div class="search-box">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2 box" type="search" placeholder="Search" aria-label="Search" name="search">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+          </div>
+
+
+          <ul class="navbar-nav  right-navbar">
+            <li class="nav-item active">
+              <a class="nav-link" href="#title">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">
+                <C>Contact</C>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="#cta">Download</a>
+            </li>
+          </ul>
+
+      </nav>
+
+    </div>
+
+  </section>
+
+  <!-- Featured -->
+
+  <section id="featured">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="#electronics"><img src="images/img1.png" alt="img1"></a>
+        </div>
+        <div class="carousel-item">
+          <a href="#fashion"><img src="images/img2.png" alt="img2"></a>
+        </div>
+        <div class="carousel-item">
+          <a href="#health"><img src="images/img3.png" alt="img3"></a>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+<!-- Electronics -->
+<section id="electronics">
+  <div class="electronics-h1">
+    <h1>Best in Electronics</h1>
+  </div>
+  <div class="electronics-img row">
+    <div class="electronic col-md-2 col-sm-6">
+      <div class="electronics-smart-phone">
+        <img class="smart-phone" src="images/smart-phone.jpeg" alt="smart-phone">
+      </div>
+      <p>Samsung Smart Phone</p>
+    </div>
+    <div class="electronic col-md-2 col-sm-6">
+      <div class="electronics-asus-laptop">
+        <img class="asus-laptop" src="images/asus-laptop.jpeg" alt="asus-laptop">
+      </div>
+      <p>Asus Laptop</p>
+    </div>
+    <div class="electronic col-md-2 col-sm-6">
+      <div class="electronics-realme-buds">
+        <img class="realme-buds" src="images/realme-buds.jpeg" alt="realme-buds">
+      </div>
+      <p>Realme Buds</p>
+    </div>
+    <div class="electronic col-md-2 col-sm-6">
+      <div class="electronics-refrigerator">
+        <img class="refrigerator" src="images/refrigerator.jpeg" alt="refrigerator">
+      </div>
+      <p>Refrigerator</p>
+    </div>
+    <div class="electronic col-md-2 col-sm-6">
+      <div class="electronics-headset">
+        <img class="headset" src="images/headset.jpeg" alt="headset">
+      </div>
+      <p>JBL Headset</p>
+    </div>
+    <div class="electronic col-md-2 col-sm-6">
+      <div class="electronics-hp-laptop">
+        <img class="hp-laptop" src="images/hp-laptop.jpeg" alt="hp-laptop">
+      </div>
+      <p>Hp Laptop</p>
+    </div>
+
+  </div>
+
+</section>
+
+<hr>
+
+<!-- Fashion -->
+
+<section id="fashion">
+  <div class="fashion-h1">
+    <h1>Best in Fashion</h1>
+  </div>
+  <div class="fashion-img row">
+    <div class="fashions col-md-2 col-sm-6">
+      <div class="fashion-smart-phone">
+        <img class="mens-shirt" src="images/mens-shirt.jpeg" alt="mens-shirt" height="200px" width="150px">
+      </div>
+      <p>Men's Shirt</p>
+    </div>
+    <div class="fashions col-md-2 col-sm-6">
+      <div class="fashion-mens-socks">
+        <img class="mens-socks" src="images/mens-socks.jpeg" alt="mens-socks" height="180px">
+      </div>
+      <p>Socks</p>
+    </div>
+    <div class="fashions col-md-2 col-sm-6">
+      <div class="fashion-shoe">
+        <img class="shoe" src="images/shoe.jpeg" alt="shoe">
+      </div>
+      <p>Sports Shoes</p>
+    </div>
+    <div class="fashions col-md-2 col-sm-6">
+      <div class="fashion-ladies-dress">
+        <img class="ladies-dress" src="images/ladies-dress.jpeg" alt="ladies-dress">
+      </div>
+      <p>Women's Dress</p>
+    </div>
+    <div class="fashions col-md-2 col-sm-6">
+      <div class="fashion-sky-bag">
+        <img class="sky-bag" src="images/sky-bag.jpeg" alt="sky-bag">
+      </div>
+      <p>Sky Bags</p>
+    </div>
+    <div class="fashions col-md-2 col-sm-6">
+      <div class="fashion-glasses">
+        <img class="glasses" src="images/glasses.jpeg" alt="glasses">
+      </div>
+      <p>Sun Glass</p>
+    </div>
+
+  </div>
+
+</section>
+<hr>
+
+
+<!-- Health Care Essentials -->
+
+<section id="health">
+  <div class="health-h1">
+    <h1>Health Care Essentials</h1>
+  </div>
+  <div class="health-img row">
+    <div class="health-care-essentials col-md-2 col-sm-6">
+      <div class="health-surgical-mask">
+        <img class="surgical-mask" src="images/surgical-mask.jpeg" alt="surgical-mask" height="200px">
+      </div>
+      <p>Surgical Mask</p>
+    </div>
+    <div class="health-care-essentials health col-md-2 col-sm-6">
+      <div class="health-thermometer">
+        <img class="thermometer" src="images/thermometer.jpeg" alt="thermometer" height="200px">
+      </div>
+      <p>Thermometer</p>
+    </div>
+    <div class="health-care-essentials health col-md-2 col-sm-6">
+      <div class="health-Hand-gloves">
+        <img class="Hand-gloves" src="images/Hand-gloves.jpeg" alt="Hand-gloves" height="200px">
+      </div>
+      <p>Hand Gloves</p>
+    </div>
+    <div class="health-care-essentials health col-md-2 col-sm-6">
+      <div class="health-surgical-dress">
+        <img class="surgical-dress" src="images/surgical-dress.jpeg" alt="surgical-dress" height="200px">
+      </div>
+      <p>surgical Dress</p>
+    </div>
+    <div class="health-care-essentials health col-md-2 col-sm-6">
+      <div class="black-mask">
+        <img class="black-mask" src="images/black-mask.jpeg" alt="black-mask" >
+      </div>
+      <p>Black Mask</p>
+    </div>
+    <div class="health-care-essentials health col-md-2 col-sm-6">
+      <div class="health-medical-kit">
+        <img class="medical-kit" src="images/medical-kit.jpeg" alt="medical-kit" height="200px">
+      </div>
+      <p>Medical-Kit</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-h3">Find the Best Products and Download e-bay App Now.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download </button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <i class="fab fa-twitter footer-icon"></i>
+    <i class="fab fa-facebook-f footer-icon "></i>
+    <i class="fab fa-instagram footer-icon"></i>
+    <i class="fas fa-envelope footer-icon"></i>
+    <p class="footer-p">© copyright 2020 e-buy authorized</p>
+
+  </footer>
+
+
+</body>
+
+</html>
